@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.Container {
+  height: 300px;
+  left: 200px;
+  width: 100%;
+  border: 1px solid #917e7e;
+  border-radius: 10px;
+  text-align: right;
+  max-width: 35rem;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.fadeIn {
+  padding: 10px;
+  margin: 20px;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  animation: slidein 1s ease-out forwards;
+  transform: translateY(-25px);
+  -webkit-animation: slidein 1s ease-out forwards;
+}
+.Qoute {
+  background-color: #3b3636;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.Author {
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Button {
+  margin: 20px;
+  position: relative;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  font-weight: 700;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
